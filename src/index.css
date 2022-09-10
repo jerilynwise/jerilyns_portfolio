@@ -122,10 +122,12 @@ nav li a:hover {
      text-align: center;
  }
  
- .preview p {
+ .preview p,
+ ul {
      font-family: var(--mainText);
      font-size: 15px;
      margin: 20px;
+     font-weight: 900;
  }
  
  .preview a {
@@ -152,6 +154,7 @@ nav li a:hover {
     text-decoration: none;
     color: var(--thirdColor);
     font-size: 5rem;
+    font-family: var(--cursive);
 }
 
 
@@ -184,5 +187,24 @@ nav li a:hover {
     background-color: var(--mainColor);
     color: #b24013;
     font-size: 20px;
+    font-weight: 900;
+}
+
+/* footer styling */
+.footer {
+    background-color: var(--mainColor);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    height: 12rem;
+}
+
+.footer a {
+    text-decoration: none;
+    padding: 15px;
+    font-size: 30px;
+    color: #b24013;
+    font-family: var(--mainText);
     font-weight: 900;
 }
