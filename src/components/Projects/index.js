@@ -1,7 +1,6 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
-import Col from 'react-bootstrap/Col';
-import Row from 'react-bootstrap/Row';
+
 import { ListGroup } from 'react-bootstrap';
 import travelImage from '../../assets/projects/Travel.png'
 import employeeImage from '../../assets/projects/Employee.png'
@@ -72,9 +71,7 @@ function Project() {
     return (
         <div>
             {projects.map((project) => (
-                       <Row xs={1} md={2} className="g-4">
-                   <Col>
-                   <Card style={{ width: '18rem' }}>
+                   <Card bg= 'light' border= 'dark' className='card' style={{ width: '18rem' }}>
                        <Card.Img variant="top" src={project.image} />
                        <Card.Body>
                            <Card.Title>{project.name}</Card.Title>
@@ -88,8 +85,6 @@ function Project() {
                            <Card.Link href="#{project.deployed}" >Website</Card.Link>
                        </Card.Body>
                        </Card>
-                   </Col>
-               </Row> 
             ))}
         </div>
 

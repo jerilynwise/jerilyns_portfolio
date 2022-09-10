@@ -3,17 +3,20 @@ import React from 'react';
 
 function About() {
   return (
-    <section className="my-5">
-      <img src={aboutMe} className="my-2" style={{ width: "25%" }} alt="cover" />
-      <div className="about_me">      
-        <h1 id="about">Jerilyn Wise</h1>
-            <p>I am a quality engineer consultant working with Accenture in Nashville, TN. 
-                    My background is in warehouse management systems with a heavy focus on Scale and Netsuite.
-                    I am curently taking classes to become a Fullstack Developer.</p>
-        </div>
 
+    <section class="wrapper">
+        <section>
+            <img id="profile-pic" src={aboutMe} alt= 'woman with short hair smiling'/>
+        </section>
+        <section id="this-is-me" class="this-is-me">
+                <div class="preview">
+                    <h3>This Is Me</h3>
+                    <p>I am a system analyst working with DesignWorks Collective in Nashville, TN. My background is in warehouse management systems with a heavy focus on Scale and Netsuite. I am curently taking classes 
+                        to become a Fullstack Developer.
+                    </p>
+                </div>
+        </section>
     </section>
-
   );
 }
 

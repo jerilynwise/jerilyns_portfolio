@@ -28,11 +28,17 @@ function Header() {
 
   return (
       <div>
-        <h1>Jerilyn Wise</h1>
+        <header className='header-box'>
+            <h1 id='header'>Jerilyn Wise</h1>
+        </header>
+        <section id='navigation' className='navigation'>
+        <nav className='nav'>
         <Nav
             selected = {selected}
             changePage = {changePage} 
         />
+        </nav>
+        </section>
         <main>
           <div>{showPage(selected)}</div>
         </main>
