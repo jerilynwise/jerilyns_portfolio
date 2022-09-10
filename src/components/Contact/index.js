@@ -38,26 +38,25 @@ function ContactForm() {
 
   return (
     <section>
-      <h1 data-testid="h1tag">Contact me</h1>
+      <h3 className='contact_title' data-testid="h3tag">Contact me</h3>
       <form id="contact-form" onSubmit={handleSubmit}>
-        <div>
-          <label htmlFor="name">Name:</label>
-          <input type="text" name="name" defaultValue={name} onBlur={handleChange} />
+        <div className='input'>
+        <div className='name'>
+          <input type="text" name="name" placeholder= "Your Name" defaultValue={name} onBlur={handleChange} />
         </div>
-        <div>
-          <label htmlFor="email">Email address:</label>
-          <input type="email" name="email" defaultValue={email} onBlur={handleChange} />
+        <div className='email'>
+          <input type="email" name="email" placeholder= "Email Address" defaultValue={email} onBlur={handleChange} />
         </div>
-        <div>
-          <label htmlFor="message">Message:</label>
-          <textarea name="message" rows="5" defaultValue={message} onBlur={handleChange} />
+        <div className='message'>
+          <textarea name="message" rows="5" placeholder= "Type your message here!" defaultValue={message} onBlur={handleChange} />
         </div>
         {errorMessage && (
           <div>
             <p className="error-text">{errorMessage}</p>
           </div>
         )}
-        <button data-testid="button" type="submit">Submit</button>
+        <button data-testid="button" className='submit' type="submit">Let's Chat</button>
+        </div>
       </form>
     </section>
   );

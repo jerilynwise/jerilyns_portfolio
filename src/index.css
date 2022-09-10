@@ -147,6 +147,42 @@ nav li a:hover {
     padding: 20px;
 }
 
-.card {
-    display: inline-block;
+/* Resume Styling */
+.button {
+    text-decoration: none;
+    color: var(--thirdColor);
+    font-size: 5rem;
+}
+
+
+/* Contact Me Styling */
+#contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.contact_title{
+    display: flex;
+    justify-content: center;
+    background-color: var(--borderColor);
+    font-family: var(--cursive);
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.submit{
+    border-radius: 5px;
+    padding: 5px;
+    text-decoration: none;
+    font-family: var(--mainText);
+    background-color: var(--mainColor);
+    color: #b24013;
+    font-size: 20px;
+    font-weight: 900;
 }
