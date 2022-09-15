@@ -1,5 +1,5 @@
 {
-  "homepage": "http://jerilynwise.github.io/jerliyns_portfolio",
+  "homepage": "https://github.com/jerilynwise.github.io/jerilyns_portfolio",
   "name": "jerliyns_portfolio",
   "version": "0.1.0",
   "private": true,
@@ -42,5 +42,16 @@
   },
   "devDependencies": {
     "gh-pages": "^4.0.0"
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jerilynwise/jerilyns_portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jerilynwise/jerilyns_portfolio/issues"
   }
 }
