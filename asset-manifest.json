@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/jerilynwise.github.io/jerilyns_portfolio/static/css/main.6ef19593.css",
-    "main.js": "/jerilynwise.github.io/jerilyns_portfolio/static/js/main.6f499680.js",
-    "static/media/jerilyn.jpg": "/jerilynwise.github.io/jerilyns_portfolio/static/media/jerilyn.44d00f260f4f41a10208.jpg",
-    "static/media/Resume.pdf": "/jerilynwise.github.io/jerilyns_portfolio/static/media/Resume.41320510340393e9d195.pdf",
-    "index.html": "/jerilynwise.github.io/jerilyns_portfolio/index.html",
-    "main.6ef19593.css.map": "/jerilynwise.github.io/jerilyns_portfolio/static/css/main.6ef19593.css.map",
-    "main.6f499680.js.map": "/jerilynwise.github.io/jerilyns_portfolio/static/js/main.6f499680.js.map"
+    "main.css": "/jerilyns_portfolio/static/css/main.6ef19593.css",
+    "main.js": "/jerilyns_portfolio/static/js/main.7724488f.js",
+    "static/media/jerilyn.jpg": "/jerilyns_portfolio/static/media/jerilyn.44d00f260f4f41a10208.jpg",
+    "static/media/Resume.pdf": "/jerilyns_portfolio/static/media/Resume.41320510340393e9d195.pdf",
+    "index.html": "/jerilyns_portfolio/index.html",
+    "main.6ef19593.css.map": "/jerilyns_portfolio/static/css/main.6ef19593.css.map",
+    "main.7724488f.js.map": "/jerilyns_portfolio/static/js/main.7724488f.js.map"
   },
   "entrypoints": [
     "static/css/main.6ef19593.css",
-    "static/js/main.6f499680.js"
+    "static/js/main.7724488f.js"
   ]
 }
