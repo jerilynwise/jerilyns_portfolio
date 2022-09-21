@@ -38,25 +38,36 @@ function ContactForm() {
 
   return (
     <section>
-      <h3 className='contact_title' data-testid="h3tag">Contact me</h3>
-      <form id="contact-form" onSubmit={handleSubmit}>
-        <div className='input'>
-        <div className='name'>
-          <input type="text" name="name" placeholder= "Your Name" defaultValue={name} onBlur={handleChange} />
-        </div>
-        <div className='email'>
-          <input type="email" name="email" placeholder= "Email Address" defaultValue={email} onBlur={handleChange} />
-        </div>
-        <div className='message'>
-          <textarea name="message" rows="5" placeholder= "Type your message here!" defaultValue={message} onBlur={handleChange} />
-        </div>
+      <form className="border border-light p-5" onSubmit={handleSubmit}>
+      <p Name="h4 mb-4 text-center">Contact Me</p>
+      <input type="text" 
+        name="name"   
+        placeholder= "Your Name" 
+        className='form-control mb-4'
+        defaultValue={name} onBlur={handleChange} />
+
+
+         <input type="email" 
+         id="defaultContactFormEmail" 
+         className="form-control mb-4" 
+         placeholder="E-mail">
+          defaultValue={email} onBlur={handleChange} 
+          </input>
+
+        <textarea 
+        className="form-control rounded-0" 
+        id="exampleFormControlTextarea2" 
+        rows="3" 
+        placeholder="Message">
+        defaultValue={message} onBlur={handleChange}
+        </textarea>
         {errorMessage && (
           <div>
             <p className="error-text">{errorMessage}</p>
           </div>
         )}
-        <button data-testid="button" className='submit' type="submit">Let's Chat</button>
-        </div>
+        <button className="btn btn-info btn-block" type="submit">Send</button>
+  
       </form>
     </section>
   );

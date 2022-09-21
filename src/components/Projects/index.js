@@ -49,12 +49,12 @@ const projects = [
     },
     {
         id: 4,
-        name: 'Tech Blog',
-        description: 'As a developer who writes about tech I want a CMS-style blog site so that I can publish articles, blog posts, and my thoughts and opinions',
+        name: 'Walk This Way',
+        description: 'As a weightlifter I want to keep track of my workouts so that I can track my progress',
         image: blogImage,
-        programs: 'Express-Handlebars, Sequelize, MVC',
-        github: 'https://github.com/jerilynwise/tech-blog',
-        deployed: 'https://nameless-cove-30065.herokuapp.com/'
+        programs: 'MERN and Heroku deploy',
+        github: 'https://github.com/jerilynwise/jerilyns_portfolio',
+        deployed: 'https://infinite-falls-51606.herokuapp.com/'
     },
     {
         id: 5,
